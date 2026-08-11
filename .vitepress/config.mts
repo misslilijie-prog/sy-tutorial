@@ -36,9 +36,9 @@ export default defineConfig({
         {
           text: '速云官方客户端',
           items: [
-            { text: 'Windows 客户端', link: '/guide/suyun-windows' },
-            { text: 'Android 客户端', link: '/guide/suyun-android' },
-            { text: 'macOS 客户端', link: '/guide/suyun-macos' }
+            { text: 'Windows 客户端', link: '/guide/windows' },
+            { text: 'Android 客户端', link: '/guide/android' },
+            { text: 'macOS 客户端', link: '/guide/macos' }
           ]
         },
         {
