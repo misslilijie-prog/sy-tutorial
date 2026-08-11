@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.L_oL6aia.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"payment/index.md","filePath":"payment/index.md"}'),n={name:"payment/index.md"};function r(o,s,c,d,i,p){return t(),a("div")}const f=e(n,[["render",r]]);export{_ as __pageData,f as default};

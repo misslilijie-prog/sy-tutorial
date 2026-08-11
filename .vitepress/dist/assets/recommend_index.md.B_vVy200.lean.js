@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as n}from"./chunks/framework.L_oL6aia.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"recommend/index.md","filePath":"recommend/index.md"}'),r={name:"recommend/index.md"};function a(o,c,d,s,m,i){return t(),n("div")}const f=e(r,[["render",a]]);export{_ as __pageData,f as default};
