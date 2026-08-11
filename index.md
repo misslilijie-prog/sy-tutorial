@@ -3,15 +3,14 @@ layout: home
 
 hero:
   name: "速云帮助文档"
-  text: "软件教程 · 常见问题 · 公告"
-  tagline: 快速找到你需要的帮助内容
+  tagline: 软件教程 · 常见问题 · 公告，快速找到你需要的帮助内容
   actions:
     - theme: brand
       text: 查看教程
-      link: /guide/
+      link: /guide/karing
     - theme: alt
       text: 查看公告
-      link: /notice/
+      link: /notice/must-read
 
 features:
   - icon: 💡

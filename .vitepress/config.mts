@@ -9,21 +9,23 @@ export default defineConfig({
       {
         text: '使用教程',
         items: [
-          { text: '快速开始', link: '/guide/' },
-          { text: '安装步骤', link: '/guide/setup' }
+          { text: '查看全部教程', link: '/guide/' },
+          { text: '速云APP', link: '/guide/suyun-windows' }
         ]
       },
       {
         text: '常见问题&技术支持',
         items: [
-          { text: '常见问题', link: '/faq/' }
+          { text: '常见问题', link: '/faq/' },
+          { text: '排查排错指南', link: '/faq/troubleshooting' }
         ]
       },
       { text: '支付&账户问题', link: '/payment/' },
       {
         text: '公告中心',
         items: [
-          { text: '最新公告', link: '/notice/' }
+          { text: '必看公告', link: '/notice/must-read' },
+          { text: '往期公告', link: '/notice/archive' }
         ]
       },
       { text: '娱乐推荐', link: '/recommend/' }
@@ -32,26 +34,53 @@ export default defineConfig({
     sidebar: {
       '/guide/': [
         {
-          text: '使用教程',
+          text: '速云官方客户端',
           items: [
-            { text: '快速开始', link: '/guide/' },
-            { text: 'Karing 客户端教程', link: '/guide/karing' }
+            { text: 'Windows 客户端', link: '/guide/suyun-windows' },
+            { text: 'Android 客户端', link: '/guide/suyun-android' },
+            { text: 'macOS 客户端', link: '/guide/suyun-macos' }
+          ]
+        },
+        {
+          text: '第三方工具教程',
+          items: [
+            { text: 'Karing（Windows）', link: '/guide/karing' },
+            { text: 'NekoBox（Android）', link: '/guide/nekobox' },
+            { text: 'Shadowrocket（iOS）', link: '/guide/shadowrocket' },
+            { text: 'V2rayN（Android）', link: '/guide/v2rayn-android' },
+            { text: 'Clash（Android）', link: '/guide/clash-android' },
+            { text: 'OpenWrt 路由器配置', link: '/guide/openwrt' }
           ]
         }
       ],
       '/faq/': [
         {
-          text: '常见问题',
+          text: '常见问题&技术支持',
           items: [
-            { text: '常见问题', link: '/faq/' }
+            { text: '常见问题', link: '/faq/' },
+            { text: '排查排错指南', link: '/faq/troubleshooting' }
+          ]
+        }
+      ],
+      '/payment/': [
+        {
+          text: '支付&账户问题',
+          items: [
+            { text: '邀请返利活动', link: '/payment/referral' }
+          ]
+        }
+      ],
+      '/notice/': [
+        {
+          text: '公告中心',
+          items: [
+            { text: '必看公告', link: '/notice/must-read' },
+            { text: '往期公告', link: '/notice/archive' }
           ]
         }
       ]
     },
 
-    socialLinks: [
-      // 如果有 GitHub 仓库可以加，没有就删掉这一项
-      // { icon: 'github', link: 'https://github.com/xxx' }
-    ]
+    socialLinks: []
   }
 })
