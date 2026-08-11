@@ -9,14 +9,14 @@ export default defineConfig({
       {
         text: '使用教程',
         items: [
-          { text: '查看全部教程', link: '/guide/' },
-          { text: '速云APP', link: '/guide/suyun-windows' }
+          { text: '查看全部教程', link: '/guide/karing' },
+          { text: '速云APP', link: '/guide/windows' }
         ]
       },
       {
         text: '常见问题&技术支持',
         items: [
-          { text: '常见问题', link: '/faq/' },
+          { text: '常见问题', link: '/faq/faq.md' },
           { text: '排查排错指南', link: '/faq/troubleshooting' }
         ]
       },
