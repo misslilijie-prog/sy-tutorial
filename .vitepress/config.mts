@@ -1,11 +1,10 @@
-```js
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'fangqi帮助文档',
   description: '软件教程与常见问题文档',
 
-  // 加载自定义 CSS
+  // 加载自定义 CSS（确保文件在 public/custom.css）
   head: [
     ['link', { rel: 'stylesheet', href: '/custom.css' }]
   ],
@@ -59,7 +58,7 @@ export default defineConfig({
         items: [
           {
             text: '常见问题',
-            link: '/faq/'
+            link: '/faq/faq' // 如果文件名为 faq/faq.md 请用此路径；若为 faq/index.md 可保持 '/faq/'
           },
           {
             text: '排查排错指南',
@@ -117,4 +116,3 @@ export default defineConfig({
     socialLinks: []
   }
 })
-```
