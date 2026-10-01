@@ -1,0 +1,110 @@
+/* 首页欢迎区域 */
+.home-intro {
+  max-width: 900px;
+  margin: 50px auto 30px;
+  text-align: center;
+}
+
+.home-intro h2 {
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+
+.home-intro p {
+  color: var(--vp-c-text-2);
+  line-height: 1.8;
+}
+
+/* 快速开始 */
+.quick-links {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.quick-links h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.quick-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 22px 24px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+  color: inherit;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.quick-card:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.quick-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: var(--vp-c-brand-soft);
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.quick-card strong {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.quick-card p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+}
+
+/* 首页提示 */
+.home-tip {
+  max-width: 900px;
+  margin: 40px auto 70px;
+}
+
+.home-tip blockquote {
+  margin: 0;
+}
+
+/* 手机端 */
+@media (max-width: 640px) {
+  .home-intro {
+    margin-top: 30px;
+  }
+
+  .home-intro h2 {
+    font-size: 24px;
+  }
+
+  .quick-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-card {
+    padding: 18px;
+  }
+
+  .quick-links {
+    margin: 35px auto;
+  }
+}
