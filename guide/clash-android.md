@@ -1,6 +1,6 @@
-# Clash for Android 客户端下载教程
+# Clash meta for Android 客户端下载教程
 
-Clash 是一个使用 Go 语言编写、基于规则的跨平台代理软件核心程序。Clash for Android 是安卓系统上的一款 Clash 客户端。
+Clash 是一个使用 Go 语言编写、基于规则的跨平台代理软件核心程序。Clash meta for Android 是安卓系统上的一款 Clash 客户端。
 
 ## 一、推荐浏览器（强烈建议）
 
@@ -25,5 +25,3 @@ Clash 是一个使用 Go 语言编写、基于规则的跨平台代理软件核�
 - 下载文档名：`安卓端.7z`
 - 密码：`77e7`
 - 解压密码：`suduyun`
-
-<img src="https://img.mimy.cc/sac.jpg" alt="安卓端下载文件示例" />
