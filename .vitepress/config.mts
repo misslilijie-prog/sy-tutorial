@@ -39,14 +39,6 @@ export default defineConfig({
           {
             text: 'Shadowrocket（iOS）',
             link: '/guide/shadowrocket'
-          },
-          {
-            text: 'Clash（Android）',
-            link: '/guide/clash-android'
-          },
-          {
-            text: 'OpenWrt 路由器配置',
-            link: '/guide/openwrt'
           }
         ]
       },
