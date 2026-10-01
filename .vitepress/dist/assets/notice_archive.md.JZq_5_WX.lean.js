@@ -1,0 +1,2 @@
+import{_ as a,o as r,c as n,j as t}from"./chunks/framework.L_oL6aia.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"notice/archive.md","filePath":"notice/archive.md"}'),o={name:"notice/archive.md"};function c(s,e,i,l,d,p){return r(),n("div",null,[...e[0]||(e[0]=[t("pre",null,[t("code",null,`# 往期公告
+`)],-1)])])}const f=a(o,[["render",c]]);export{_ as __pageData,f as default};

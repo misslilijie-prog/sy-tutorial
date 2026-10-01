@@ -1,0 +1,2 @@
+import{_ as a,o as r,c as n,j as t}from"./chunks/framework.L_oL6aia.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"notice/must-read.md","filePath":"notice/must-read.md"}'),o={name:"notice/must-read.md"};function s(c,e,d,i,l,m){return r(),n("div",null,[...e[0]||(e[0]=[t("pre",null,[t("code",null,`# 必看公告
+`)],-1)])])}const _=a(o,[["render",s]]);export{u as __pageData,_ as default};

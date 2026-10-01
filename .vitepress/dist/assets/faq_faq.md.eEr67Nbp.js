@@ -1,0 +1,2 @@
+import{_ as t,o as r,c as n,j as a}from"./chunks/framework.L_oL6aia.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"faq/faq.md","filePath":"faq/faq.md"}'),o={name:"faq/faq.md"};function s(f,e,c,l,d,p){return r(),n("div",null,[...e[0]||(e[0]=[a("pre",null,[a("code",null,`# 常见问题
+`)],-1)])])}const _=t(o,[["render",s]]);export{m as __pageData,_ as default};
