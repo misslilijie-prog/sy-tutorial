@@ -1,72 +1,77 @@
-Shadowrocket 是 iOS 上非常流行的一款科学上网工具，界面简洁、配置灵活，尤其适合初学者。
+# Shadowrocket（iOS）使用教程
 
+Shadowrocket（俗称“小火箭”）是 iOS 平台上非常流行且强大的网络代理工具。界面简洁、配置灵活，非常适合初学者与进阶用户使用。
 
-## 软件下载方式（需美区账号）
+---
 
-Shadowrocket 是一款付费软件（2.99美元），仅在美区 App Store 上架，国区和其他来源存在大量山寨恶意应用，谨防误装。
+## 一、 软件下载与准备
 
-官方正版下载地址：  
-https://apps.apple.com/us/app/shadowrocket/id932747118
+Shadowrocket 是一款付费软件（官方售价 **$2.99**），仅在**非中国大陆区（如美区）** App Store 上架。
 
-下载方式说明
----------
-美区 Apple ID 自购（推荐）
+::: warning ⚠️ 防骗提醒
+App Store 中存在大量同名或图标相似的山寨恶意应用，请谨防误装。请认准官方正版图标与开发者信息，或直接通过下方官方链接跳转。
+:::
 
-*长期稳定，永久使用  
-*花费约 $2.99 一次性买断   
-*一次性买断，无后续付费，账号与应用永远绑定  
+* **官方正版下载地址**：[App Store 传送门](https://apps.apple.com/us/app/shadowrocket/id932747118)
 
-购买地址：[http://ios.mimy.cc](http://ios.mimy.cc)
+### 账号获取与登录说明
 
+推荐使用**美区 Apple ID** 自购买断，账号与应用绑定，可永久免费更新。
 
-登陆账号参考图：  
-![Apple ID 图示](https://img.mimy.cc/appleid.webp)
+* **买断账号获取**：[点击购买美区 Apple ID](http://ios.mimy.cc)
 
-添加订阅链接
----------
+::: tip 💡 登录注意事项
+1. 只能在 **App Store** 内登录美区账号，**严禁在 iPhone「设置」主界面登录**，以免发生锁机风险！
+2. 登录流程：打开 App Store ➔ 点击右上角个人头像 ➔ 滑到最底部点击「退出登录」➔ 输入并登录美区账号。
+:::
 
-安装完 Shadowrocket 后，按照以下步骤添加订阅链接以获取节点：
+<img src="https://img.mimy.cc/appleid.webp" width="500" alt="App Store 登录美区 Apple ID 示意图" />
 
-1.打开官网点击仪表盘复制你的专属订阅链接  
-2.打开 Shadowrocket 应用，点击右上角「+」按钮新增配置，类型选择 Subscribe  
-3.将复制的链接粘贴到 URL 一栏，备注可自定义（如：放弃）  
-4.点击右上角 完成  
+---
 
-操作示意图：  
+## 二、 快速使用指南
 
-![Apple ID 图示](https://img.mimy.cc/IOS2.webp)  
-![Apple ID 图示](https://img.mimy.cc/IOS3.webp)  
-![Apple ID 图示](https://img.mimy.cc/fangqixhj111.webp)
+### Step 1. 添加订阅链接
 
+1. 登录 **fangqi 官网**，在控制面板/仪表盘复制您的专属订阅链接。
+2. 打开 **Shadowrocket** 应用，点击右上角的 **`+`** 按钮新增配置。
+3. 将 **类型（Type）** 切换为 **`Subscribe`**。
+4. 在 **URL** 一栏粘贴刚复制的订阅链接，**备注（Note）** 可自定义（如：`fangqi`）。
+5. 点击右上角 **完成（Save）** 保存。
 
-## 开始使用
-1.添加订阅成功后，应用会自动刷新并显示多个节点  
-2. 选择任意节点  
-3. 点击上方的开关按钮打开代理  
-4. 出现 VPN 授权提示时点击“允许”，即可连接成功  
+<img src="https://img.mimy.cc/IOS2.webp" width="300" alt="新增配置" />
+<img src="https://img.mimy.cc/IOS3.webp" width="300" alt="选择类型 Subscribe" />
+<img src="https://img.mimy.cc/fangqixhj111.webp" width="300" alt="粘贴链接并保存" />
 
-<!--more-->
+---
 
-小火箭测试延迟（Ping）教程
-------------------
+### Step 2. 选择节点与开启代理
 
-方法一：单个节点测试延迟
---------------
-1.打开 Shadowrocket  
-2. 在首页节点列表中，长按任意一个节点  
-3. 在弹出的菜单中，点击 “Ping” 或 “测试”  
-4. 稍等片刻，即可显示该节点的延迟（单位：ms，越低越好）  
+1. 订阅添加成功后，应用会自动刷新并展示所有可用节点。
+2. 在列表中点击选择您需要使用的**目标节点**。
+3. 点击页面最顶部的 **未连接（开关按钮）** 开启代理服务。
+4. 首次使用时，系统会弹出 **“Shadowrocket 想添加 VPN 配置”** 的授权提示，请点击 **允许（Allow）** 并完成系统面容/密码验证。
 
-方法二：批量测试所有节点延迟
-----------------
-1. 打开 Shadowrocket，连通性测试模式选择CONNECT
-2. 在首页，点击“连通性测试”  
-3. 应用会自动开始测试所有节点的延迟（右侧会显示 ms 数值）  
+---
 
-提示：  
-*绿色数字代表延迟较低（< 100ms），通常速度更快  
-*红色或“超时”表示该节点无法连接或速度较慢  
-*建议优先选择延迟在 100-200ms 之间的节点使用
+## 三、 节点延迟测试（Ping）
 
-![Apple ID 图示](https://img.mimy.cc/fangqixhj444.webp)
-![Apple ID 图示](https://img.mimy.cc/fangqixhj222.webp)
+连接前建议先进行延迟测试，选择速度更快、响应更稳定的线路：
+
+### 方法一：批量测试所有节点（推荐）
+1. 打开 Shadowrocket，将连通性测试模式设置为 **`CONNECT`**。
+2. 在首页节点列表上方，点击 **连通性测试**。
+3. 软件会自动测试所有节点，并在节点右侧实时显示延迟数值（毫秒 ms）。
+
+### 方法二：单个节点单独测试
+1. 在首页节点列表中，**长按** 需要测试的某一个节点。
+2. 在弹出的菜单中点击 **`Ping`** 或 **`测试`** 即可。
+
+::: info 📊 延迟测试结果说明
+* **绿色数字（< 100ms）**：网络延迟极低，体验最佳。
+* **黄色 / 橙色数字（100ms - 300ms）**：延迟正常，可稳定流畅使用。
+* **红色 / 超时（Timeout）**：当前节点连接异常或失效，请换用其他节点。
+:::
+
+<img src="https://img.mimy.cc/fangqixhj444.webp" width="300" alt="连通性测试" />
+<img src="https://img.mimy.cc/fangqixhj222.webp" width="300" alt="节点测试结果" />
